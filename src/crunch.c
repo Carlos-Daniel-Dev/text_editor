@@ -1,7 +1,9 @@
 #include <stdio.h>
 
+#include "screen.c"
+
 int main ()
 {
-	printf("hello world\n");
+    start_screan();
 	return 1;
 }
